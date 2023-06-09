@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/mlkit">
+        <menu>
+            <item
+                android:id="@+id/realtime_face_detection"
+                android:icon="@drawable/face_icon"
+                android:title="@string/realtime_face_detection" />
+            <item
+                android:id="@+id/capture_face_detection"
+                android:icon="@drawable/face_icon"
+                android:title="@string/capture_face_detection" />
+            <item
+                android:id="@+id/face_tracking"
+                android:icon="@drawable/face_icon"
+                android:title="@string/face_tracking" />
+        </menu>
+    </item>
+
+
+</menu>
